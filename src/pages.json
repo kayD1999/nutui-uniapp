@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/developing/index",
+      "style": {
+        "navigationBarTitleText": "发开中"
+      }
+    },
+    {
+      "path": "pages/news/index",
+      "style": {
+        "navigationBarTitleText": "咨讯"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/change_password/index",
+      "style": {
+        "navigationBarTitleText": "设置密码"
+      }
+    },
+    {
+      "path": "pages/user_set/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/user_data/index",
+      "style": {
+        "navigationBarTitleText": "个人资料"
+      }
+    },
+    {
+      "path": "pages/components/components",
+      "style": {
+        "navigationBarTitleText": "组件"
+      }
+    },
+    {
+      "path": "pages/components/headerSearch",
+      "style": {
+        "navigationBarTitleText": "headerSearch组件"
+      }
+    },
+    {
+      "path": "pages/components/loading",
+      "style": {
+        "navigationBarTitleText": "loading组件"
+      }
+    },
+    {
+      "path": "pages/components/table",
+      "style": {
+        "navigationBarTitleText": "table组件"
+      }
+    },
+    {
+      "path": "pages/components/actionSheet",
+      "style": {
+        "navigationBarTitleText": "actionSheet组件"
+      }
+    },
+    {
+      "path": "pages/components/empty",
+      "style": {
+        "navigationBarTitleText": "empty组件"
+      }
+    },
+    {
+      "path": "pages/components/baseLayout",
+      "style": {
+        "navigationBarTitleText": "baseLayout组件"
+      }
+    },
+    {
+      "path": "pages/components/card",
+      "style": {
+        "navigationBarTitleText": "card组件"
+      }
+    },
+    {
+      "path": "pages/components/downChoice",
+      "style": {
+        "navigationBarTitleText": "downChoice组件"
+      }
+    },
+    {
+      "path": "pages/components/fluctuationText",
+      "style": {
+        "navigationBarTitleText": "fluctuationText组件"
+      }
+    },
+    {
+      "path": "pages/components/hashCalendar",
+      "style": {
+        "navigationBarTitleText": "hashCalendar组件"
+      }
+    },
+    {
+      "path": "pages/store/store",
+      "style": {
+        "navigationBarTitleText": "storeDemo"
+      }
+    },
+    {
+      "path": "pages/apiDemo/apiDemo",
+      "style": {
+        "navigationBarTitleText": "apiDemo"
+      }
+    },
+    {
+      "path": "pages/global/index",
+      "style": {
+        "navigationBarTitleText": "组件demo"
+      }
+    },
+    {
+      "path": "pages/global/components",
+      "style": {
+        "navigationBarTitleText": "day"
+      }
+    },
+    {
+      "path": "pages/404/index",
+      "style": {
+        "navigationBarTitleText": "404"
+      }
+    },
+    {
+      "path": "pages/test/index",
+      "style": {
+        "navigationBarTitleText": "功能测试"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    // #ifdef H5
+    "navigationStyle": "custom"
+    // #endif
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#C63520",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/shouye.png",
+        "selectedIconPath": "static/tabbar/shouye-copy.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/components/components",
+        "iconPath": "static/tabbar/shouye.png",
+        "selectedIconPath": "static/tabbar/shouye-copy.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/test/index",
+        "iconPath": "static/tabbar/zixun.png",
+        "selectedIconPath": "static/tabbar/zixun-copy.png",
+        "text": "测试"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "iconPath": "static/tabbar/zixun.png",
+        "selectedIconPath": "static/tabbar/zixun-copy.png",
+        "text": "咨讯"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/tabbar/wode.png",
+        "selectedIconPath": "static/tabbar/wode-copy.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
